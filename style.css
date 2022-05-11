@@ -87,3 +87,41 @@ body {
     background-color: black; /* Add a green color to the "active/current" link */
     color: rgb(105, 104, 104);
   }
+
+
+  /* form */
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  position: relative;
+  align-items: center;
+  width: 40%;
+  z-index: 200;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=text] {
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  submit {
+
+  }
