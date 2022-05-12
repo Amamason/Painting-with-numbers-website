@@ -123,5 +123,68 @@ input[type=text] {
   }
 
   submit {
+}
 
-  }
+.background-image-about {
+            height: 100%;
+            width: 100%;
+            right:0;
+            top: 0;
+            z-index: 2;
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+}
+
+.about-me {
+  display: inline-flex;
+  position: absolute;
+  flex-direction: row;
+  column-gap: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  align-items: left;
+  z-index: 100;
+}
+.about-me h2 {
+  font-weight: 100;
+  font-size: 2em;
+}
+.about-me p {
+  max-width: 400px;
+  font-size: 0.7em;
+  line-height: 2em;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+.qual {
+  font-size: 0.7em;
+  font-weight: 600;
+  padding-top: 5px;
+  margin-top: 2em;
+  color: white;
+  line-height: 20px;
+}
+
+.aboutheadline {
+  font-weight: 100;
+  font-size: 2em;
+  position: absolute;
+  left: 18px;
+  margin-top: 30px;
+}
+
+.qual li {
+  list-style: none;
+  list-style-type: none;
+  color: white;
+  
+}
+a:visited {
+  color: white;
+  list-style: none;
+}
+a:link {
+  color: white;
+}
